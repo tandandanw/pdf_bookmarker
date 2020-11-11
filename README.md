@@ -41,9 +41,19 @@ Add Indents
 
 # 注意 Attention
 
+- 依赖安装。
+
+  dependency.
+
+  ```shell
+  > pip install PyPDF2
+  > pip install pdfrw
+  ```
+
+
 - 如果 pdf 文件原本就带有书签，请先使用移除书签的功能。
 
-  If the original pdf file contains bookmarks (you don't want them), please use remove bookmarks function before add new bookmarks.
+  If the original pdf file contains bookmarks (you don't want them), please use remove bookmarks function before adding new bookmarks.
 
 - 如果想要使用自动增加缩进的功能，请在每级别标题开头遵循 x.x （二级标题）或 x.x.x （三级标题）格式书写书签文件（一级标题无要求）。
 
